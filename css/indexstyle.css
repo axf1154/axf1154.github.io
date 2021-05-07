@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+#wrapper{
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+html{
+  background: url("/Users/aliferris/Desktop/Web Design/axf1154.github.io/index/images/blue-snow.png");
+  background-size: cover;
+}
+
+body{
+  font-family: "Krona One", "Arial", "Helvetica", sans-serif;
+  color: #023047;
+}
+
+header{
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  margin: auto;
+}
+
+p{
+  font-family: 'Girassol', cursive;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+img{
+  width: 450px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #219ebc;
+}
+
+section{
+  width: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: #219ebc;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+nav{
+  padding-bottom: 5px;
+}
+
+nav ul{
+  padding: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-right-width: 10px;
+  list-style-type: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+  background-color: #8ECAE6;
+  padding: 5px;
+  box-shadow: 10px 10px 10px #219EBC;
+}
+
+nav a{
+  display: inline-block;
+  background-color: #eee;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 5px;
+  border-color: #da251d;
+}
+
+nav a:hover{
+  background-color: #fed9b7;
+  color: #8ECAE6;
+}
+
+nav a:link {
+  color: #da251d;
+}
+
+nav a:visited {
+  color: #023047;
+}
+
+nav li:hover{
+  background-color: #fdfcdc;
+}
+
+nav li:hover a{
+  color: #0081a7;
+}
+
+nav li:active{
+  color: #FFB703;
+}
+
+nav li:visited{
+  color: #fcca46;
+}
+
+li{
+  color: rgb(00,00,00); /* green: #18a555 - Digital color meter */
+}
+
+a:link{
+  color: #ff6b6b;
+}
+
+a:visited{
+  color: #f07167;
+}
+
+a:active{
+  color: #619b8a;
+}
+
+section{
+  padding: 10px;
+  width: auto;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 10px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "yasmin cha"
+    "family lt"
+    "club fam";
+  align-content: space-evenly;
+}
+
+.yasmin {
+  grid-area: yasmin;
+}
+
+.cha {
+  grid-area: cha;
+}
+
+.family {
+  grid-area: family;
+}
+
+.lt {
+  grid-area: lt;
+}
+
+.club {
+  grid-area: club;
+}
+
+.fam {
+  grid-area: fam;
+}
+
+.iframe{
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: block;
+  border: inset;
+}
